@@ -11,3 +11,9 @@ In VS Code, use File / New Folder to create a new folder named utils to hold uti
 # Create scripts/data_prep.py
 In VS Code, use File / New Folder to create a new folder named scripts to hold scripts. In this folder, create a file named data_prep.py. Copy and paste the content from the starter repo.
 I could not find the data_prep.py file at first so I asked ChatGPT to help create a data prep file to do basic data cleaning and then ran that. 
+# Git Add
+`git add. 
+git commit -m "message"
+git push'
+# Don't forget the .gitignore
+Add the requirements for the gitignore file.
