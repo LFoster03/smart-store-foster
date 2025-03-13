@@ -17,3 +17,17 @@ git commit -m "message"
 git push'
 # Don't forget the .gitignore
 Add the requirements for the gitignore file.
+# Clean Data
+Clean and prepare each csv file by creating a python file with the code to clean the data. Then save that cleaned data as a new csv file in the prepared folder. 
+# Fake Data
+Open each csv file in Excel and add:
+1. Customers Data
+Customer Numeric: LoyaltyPoints (numeric)
+Customer Category: CustomerSegment (category)
+2. Product Data
+Products Numeric: StockQuantity (numeric)
+Products Category: Supplier (category)
+3. Sales Data
+Sales Numeric: DiscountPercent (numeric)
+Sales Category: PaymentType (category)
+Then save these files under the same name. 
