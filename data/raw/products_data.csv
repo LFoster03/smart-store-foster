@@ -8,5 +8,3 @@ ProductID,ProductName,Category,UnitPrice,StockQuantity,Supplier,AverageRating
 107,jacket,Clothing,67.02,25,Gildan,4.5
 108,protector,Electronics,12.56,30,Apple,4
 ,,,,,Sony,
-
-Records 9

@@ -9,5 +9,3 @@ CustomerID,Name,Region,JoinDate,LoyaltyPoints,CustomerSegment,LastPurchaseDate
 1009.0,Jason Bourne,West,2020-12-01,300.0,Gold,2025-02-07
 1010.0,Hermione Granger,East,2022-12-09,250.0,Silver,2024-12-12
 1011.0,Hermione Grager,East,2022-12-09,100.0,Bronze,2024-05-06
-
-Final number of records: 10

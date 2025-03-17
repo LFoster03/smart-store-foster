@@ -61,5 +61,3 @@ TransactionID,SaleDate,CustomerID,ProductID,StoreID,CampaignID,SaleAmount,Discou
 640,9/30/24,1005,107,405,3,268.08,0,Credit
 641,9/30/24,1010,103,402,3,45.52,5,Debit
 643,10/10/24,1010,104,402,0,301.7,5,Credit
-
-62

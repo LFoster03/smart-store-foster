@@ -32,11 +32,11 @@ Sales Numeric: DiscountPercent (numeric)
 Sales Category: PaymentType (category)
 Then save these files under the same name. 
 # Cleaning and Preparing Data: sales_data.csv Example
-Load Data: Reads the sales_data.csv file into a Pandas DataFrame.
-Verify Columns: Checks if the dataset has the correct columns, as expected.
-Remove Duplicates: Removes duplicate rows from the dataset.
-Handle Missing Data: Fills any missing values in the dataset for key columns like SaleAmount and DiscountPercent.
-Remove Duplicate Columns: Drops any duplicate columns, particularly those with .1 (e.g., DiscountPercent.1).
-Ensure Correct Data Types: Ensures columns like SaleAmount and DiscountPercent are of numeric type.
-Remove Outliers: Identifies and removes outliers in the SaleAmount and DiscountPercent columns based on the interquartile range (IQR).
-Save Cleaned Data: Saves the cleaned data to a new CSV file, ex.: sales_data_prepared.csv.
+1. Load Data: Reads the sales_data.csv file into a Pandas DataFrame.
+2. Verify Columns: Checks if the dataset has the correct columns, as expected.
+3. Remove Duplicates: Removes duplicate rows from the dataset.
+4. Handle Missing Data: Fills any missing values in the dataset for key columns like SaleAmount and DiscountPercent.
+5. Remove Duplicate Columns: Drops any duplicate columns, particularly those with .1 (e.g., DiscountPercent.1).
+6. Ensure Correct Data Types: Ensures columns like SaleAmount and DiscountPercent are of numeric type.
+7. Remove Outliers: Identifies and removes outliers in the SaleAmount and DiscountPercent columns based on the interquartile range (IQR).
+8. Save Cleaned Data: Saves the cleaned data to a new CSV file, ex.: sales_data_prepared.csv.

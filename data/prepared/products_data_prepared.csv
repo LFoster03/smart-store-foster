@@ -5,5 +5,3 @@ ProductID,ProductName,Category,UnitPrice,StockQuantity,Supplier,AverageRating
 106.0,controller,Electronics,88.98,15.0,Sony,4.0
 107.0,jacket,Clothing,67.02,25.0,Gildan,4.5
 108.0,protector,Electronics,12.56,30.0,Apple,4.0
-
-Final records: 6
