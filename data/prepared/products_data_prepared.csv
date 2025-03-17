@@ -1,0 +1,9 @@
+ProductID,ProductName,Category,UnitPrice,StockQuantity,Supplier,AverageRating
+102.0,hoodie,Clothing,39.1,100.0,Gildan,4.5
+104.0,hat,Clothing,43.1,35.0,Gildan,3.5
+105.0,football,Sports,19.78,40.0,Wilson,5.0
+106.0,controller,Electronics,88.98,15.0,Sony,4.0
+107.0,jacket,Clothing,67.02,25.0,Gildan,4.5
+108.0,protector,Electronics,12.56,30.0,Apple,4.0
+
+Final records: 6
