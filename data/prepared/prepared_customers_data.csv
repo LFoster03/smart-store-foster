@@ -1,0 +1,12 @@
+CustomerID,Name,Region,JoinDate,LoyaltyPoints,CustomerSegment,LastPurchaseDate,StandardDateTime
+1001.0,William White,East,11/11/21,150.0,Bronze,2/3/25,2021-11-11
+1002.0,Wylie Coyote,East,2/14/23,200.0,Silver,11/1/24,2023-02-14
+1003.0,Dan Brown,West,10/19/23,100.0,Bronze,3/24/24,2023-10-19
+1004.0,Chewbacca,West,11/9/22,350.0,Gold,8/16/24,2022-11-09
+1005.0,Dr Who,North,8/18/23,100.0,Bronze,9/25/24,2023-08-18
+1006.0,Tiffany James,South,6/7/21,150.0,N/A,6/23/22,2021-06-07
+1007.0,Susan Johnson,South,6/30/23,250.0,Silver,3/15/24,2023-06-30
+1008.0,Tony Stark,North,5/1/20,200.0,Silver,10/4/24,2020-05-01
+1009.0,Jason Bourne,West,12/1/20,300.0,Gold,2/7/25,2020-12-01
+1010.0,Hermione Granger,East,12/9/22,250.0,Silver,12/12/24,2022-12-09
+1011.0,Hermione Grager,East,12/9/22,100.0,Bronze,5/6/24,2022-12-09

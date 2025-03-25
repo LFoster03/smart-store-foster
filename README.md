@@ -40,3 +40,69 @@ Then save these files under the same name.
 6. Ensure Correct Data Types: Ensures columns like SaleAmount and DiscountPercent are of numeric type.
 7. Remove Outliers: Identifies and removes outliers in the SaleAmount and DiscountPercent columns based on the interquartile range (IQR).
 8. Save Cleaned Data: Saves the cleaned data to a new CSV file, ex.: sales_data_prepared.csv.
+
+# Step-by-Step Breakdown of DataScrubber
+1. Review the DataScrubber Class:
+
+Objective: The class DataScrubber is already partially implemented. Your job is to review the class and complete the methods where TODO comments are present. These are the unfinished parts that need your attention.
+
+What to do: Open the scripts/data_scrubber.py file. Look for TODO comments within the code. These comments will indicate where you need to write or fix code logic.
+
+2. Tasks to Complete in DataScrubber:
+
+For each TODO in the DataScrubber class, you need to:
+
+Understand what the method is supposed to do.
+
+Complete the method logic (e.g., fixing the string formatting, handling missing data, etc.).
+
+For example, in the format_column_strings_to_upper_and_trim method, you will need to implement the logic to convert text to uppercase and remove whitespace.
+
+3. Unit Testing with unittest:
+
+Objective: After implementing or fixing the methods in the DataScrubber class, you need to verify that everything works correctly by running tests.
+
+What to do:
+
+There’s a separate test file for this class (tests/test_data_scrubber.py).
+
+This test file should contain unit tests that will automatically check whether the DataScrubber methods are working as expected.
+
+How to test: After completing the DataScrubber methods:
+
+Open tests/test_data_scrubber.py and run the tests to check if all methods in your class pass.
+
+Running tests: You can run the tests using unittest in Python. If you're using VS Code, you can run the tests directly in the terminal, or you can use the testing interface.
+
+4. Ensure All Tests Pass:
+
+After running the tests, verify that all of them pass (100%). This means that each cleaning method you implemented is functioning as expected. If any test fails, it will tell you what part of your DataScrubber class needs to be fixed.
+
+Modify your code as needed: If a test fails, go back and tweak the relevant method in the DataScrubber class and run the tests again.
+
+5. Use the DataScrubber in a Data Preparation Script:
+
+Once your DataScrubber class is working and all tests pass, you will use the DataScrubber class in your data prep script.This means you will import the class and use it to clean your data.
+
+# Use Data Scrubber 
+
+Create Main Data Prep script(s)
+
+scripts/data_prep_cutomers.py
+scripts/data_prep_products.py
+scripts/data_prep_sales.py
+
+Data Cleaning Steps:
+
+Removed duplicate rows.
+
+Cleaned column names by stripping spaces.
+
+Trimmed whitespace from the 'Name' column and dropped rows with missing CustomerID or Name.
+
+Used the DataScrubber class to handle missing data, check consistency, and parse the JoinDate column as a datetime.
+
+Logging: Added logging messages to track the progress of the data preparation process for the customer data.
+
+Next Steps:
+Run the Script:This script will process the customers_data.csv file and save the cleaned data to prepared_customers_data.csv.
