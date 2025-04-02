@@ -76,11 +76,11 @@ Create the customers, products, and sales tables in sql. Once the tables are cor
     import pandas as pd
     import sqlite3
     import pathlib
-Explanation of the Python Code:
+### Explanation of the Python Code:
 We import pandas for reading CSV files and sqlite3 for interacting with the SQLite database.
-Create Schema: The create_schema() function creates the tables (customers, products, and sales) using SQL CREATE TABLE statements.
-Load Data: The load_data_to_db() function reads data from the prepared CSV files (customers_data.csv, products_data.csv, and sales_data.csv) and loads it into the SQLite database using pandas.DataFrame.to_sql().
-Running the Code: Ensure that your CSV files are in the correct prepared/ folder and that the SQLite database file is located in dw/.
+### Create Schema: The create_schema() function creates the tables (customers, products, and sales) using SQL CREATE TABLE statements.
+### Load Data: The load_data_to_db() function reads data from the prepared CSV files (customers_data.csv, products_data.csv, and sales_data.csv) and loads it into the SQLite database using pandas.DataFrame.to_sql().
+### Running the Code: Ensure that your CSV files are in the correct prepared/ folder and that the SQLite database file is located in dw/.
 
-Run the script in VS Code by opening the terminal and execute.
+### Run the script in VS Code by opening the terminal and execute.
 This will; create the database (sales_warehouse.db) if it doesn’t exist, create the tables (customers, products, and sales) and insert data from the CSV files into the corresponding tables.
