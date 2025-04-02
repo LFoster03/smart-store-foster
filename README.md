@@ -71,23 +71,16 @@ Run the Script: process the the csv files and save the cleaned data to prepared_
 
 2. Load Data: Use Python to load data from CSV files into the database.
 Create the customers, products, and sales tables in sql. Once the tables are correct, you can run a script to create the data warehouse. 
-import pandas as pd
-import sqlite3
-import pathlib
+
+3. Run Script 
+    import pandas as pd
+    import sqlite3
+    import pathlib
 Explanation of the Python Code:
-Imports: We import pandas for reading CSV files and sqlite3 for interacting with the SQLite database.
-
+We import pandas for reading CSV files and sqlite3 for interacting with the SQLite database.
 Create Schema: The create_schema() function creates the tables (customers, products, and sales) using SQL CREATE TABLE statements.
-
 Load Data: The load_data_to_db() function reads data from the prepared CSV files (customers_data.csv, products_data.csv, and sales_data.csv) and loads it into the SQLite database using pandas.DataFrame.to_sql().
-Running the Code:
-Ensure that your CSV files are in the correct prepared/ folder and that the SQLite database file is located in dw/.
+Running the Code: Ensure that your CSV files are in the correct prepared/ folder and that the SQLite database file is located in dw/.
 
 Run the script in VS Code by opening the terminal and execute.
-This will:
-
-Create the database (sales_warehouse.db) if it doesn’t exist.
-
-Create the tables (customers, products, and sales).
-
-Insert data from the CSV files into the corresponding tables.
+This will; create the database (sales_warehouse.db) if it doesn’t exist, create the tables (customers, products, and sales) and insert data from the CSV files into the corresponding tables.
