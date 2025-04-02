@@ -87,3 +87,7 @@
 2025-03-25 13:42:37.885 | INFO     | __main__:main:87 - ======================
 2025-03-25 13:42:37.885 | INFO     | __main__:main:88 - FINISHED SALES prep
 2025-03-25 13:42:37.885 | INFO     | __main__:main:89 - ======================
+2025-04-02 14:18:44.279 | INFO     | utils.logger:<module>:39 - Logging to file: logs/project_log.log
+2025-04-02 14:18:44.279 | INFO     | __main__:main:43 - Starting data warehouse creation...
+2025-04-02 14:18:44.279 | INFO     | __main__:create_dw:31 - Data warehouse created successfully.
+2025-04-02 14:18:44.279 | INFO     | __main__:main:45 - Data warehouse creation complete.

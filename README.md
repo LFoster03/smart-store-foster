@@ -65,3 +65,5 @@ Data Cleaning Steps: Removed duplicate rows, cleaned column names by stripping s
 
 Logging: Added logging messages to track the progress of the data preparation process for the customer data.
 Run the Script: process the the csv files and save the cleaned data to prepared_file_data.csv.
+
+# Create and Populate DW
