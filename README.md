@@ -88,3 +88,42 @@ Running the Code: Ensure that your CSV files are in the correct prepared/ folder
 
 Run the script in VS Code by opening the terminal and execute.
 This will; create the database (sales_warehouse.db) if it doesn’t exist, create the tables (customers, products, and sales) and insert data from the CSV files into the corresponding tables.
+
+# Cross-Platform Reporting with Spark
+
+## Setup Spark
+Install Apache Spark
+Download the SQLite JDBC Driver from https://github.com/xerial/sqlite-jdbcLinks to an external site.
+Follow the Usage instructions in the README. Download the .jar file. I make a lib folder in my project repository and put it there. 
+Set up SQLite JDBC Driver
+Verify PySpark works in Jupyter Notebook
+
+## Connect to Data Warehouse and Load Tables
+Start a Jupyter Notebook
+Connect to SQLite using PySpark
+Verify tables are loaded
+
+## Query & Aggregate Data
+Write a Spark SQL query for total revenue per customer.
+Store the results in a Pandas DataFrame for visualization.
+Review the results.
+
+## Slice, Dice, and Drilldown
+Slicing: Filter sales by date range
+Dicing: Group sales by product & region
+Drilldown: Aggregate sales by year → quarter → month
+
+## Create Interactive Visualizations (Python, Seaborn, Matplotlib)
+Create a bar chart for Top Customers
+Create a line chart for Sales Trends
+
+## Document
+Update README.md
+
+Describe your SQL queries and reports.
+Explain dashboard design choices.
+Include screenshot of: Power BI Model View / Spark SQL Schema
+Include screenshot of: Query results
+Include screenshot of: Final Dashboard / Charts
+
+Git Add-Commit-Push
