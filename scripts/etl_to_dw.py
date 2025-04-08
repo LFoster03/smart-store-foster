@@ -3,7 +3,7 @@ import sqlite3
 import pathlib
 
 # Constants
-DB_PATH = pathlib.Path("data/dw/sales_warehouse.db")
+DB_PATH = pathlib.Path("data/dw/smart_sales.db")
 PREPARED_DATA_DIR = pathlib.Path("data/prepared")
 
 def create_schema(cursor: sqlite3.Cursor) -> None:
